@@ -1,0 +1,28 @@
+{
+  "name": "noe4j-api-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yago-Souzaa/noe4j-api-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yago-Souzaa/noe4j-api-node/issues"
+  },
+  "homepage": "https://github.com/Yago-Souzaa/noe4j-api-node#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "nanoid": "^4.0.0",
+    "neo4j-driver": "^4.4.6"
+  }
+}
